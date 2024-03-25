@@ -6,7 +6,7 @@
   <link href="https://zhenwusi.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhenwusi.github.io/"/>
-  <updated>2024-03-25T09:12:31.274Z</updated>
+  <updated>2024-03-25T09:14:20.154Z</updated>
   <id>https://zhenwusi.github.io/</id>
   
   <author>
@@ -21,11 +21,15 @@
     <link href="https://zhenwusi.github.io/2024/03/25/3dgs/"/>
     <id>https://zhenwusi.github.io/2024/03/25/3dgs/</id>
     <published>2024-03-25T08:57:21.000Z</published>
-    <updated>2024-03-25T09:12:31.274Z</updated>
+    <updated>2024-03-25T09:14:20.154Z</updated>
     
     
     
     
+    <category term="三维重建" scheme="https://zhenwusi.github.io/categories/%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA/"/>
+    
+    
+    <category term="三维重建" scheme="https://zhenwusi.github.io/tags/%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA/"/>
     
   </entry>
   
