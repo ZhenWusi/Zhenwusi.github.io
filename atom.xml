@@ -6,7 +6,7 @@
   <link href="https://zhenwusi.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhenwusi.github.io/"/>
-  <updated>2024-03-29T09:16:26.859Z</updated>
+  <updated>2024-03-30T00:24:08.708Z</updated>
   <id>https://zhenwusi.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://zhenwusi.github.io/2024/03/25/3dgs/"/>
-    <id>https://zhenwusi.github.io/2024/03/25/3dgs/</id>
-    <published>2024-03-25T08:57:21.247Z</published>
-    <updated>2024-03-29T09:16:26.859Z</updated>
+    <title>3dgs</title>
+    <link href="https://zhenwusi.github.io/2024/03/30/3dgs/"/>
+    <id>https://zhenwusi.github.io/2024/03/30/3dgs/</id>
+    <published>2024-03-30T00:22:53.000Z</published>
+    <updated>2024-03-30T00:24:08.708Z</updated>
     
     
       
@@ -34,6 +34,10 @@
     
     
     
+    <category term="三维重建" scheme="https://zhenwusi.github.io/categories/%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA/"/>
+    
+    
+    <category term="3dgs" scheme="https://zhenwusi.github.io/tags/3dgs/"/>
     
   </entry>
   

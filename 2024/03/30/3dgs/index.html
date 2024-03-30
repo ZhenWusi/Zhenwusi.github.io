@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="HTML,CSS,JavaScript,JQuery,java,linux等">
+    <meta name="keywords" content="3dgs, HTML,CSS,JavaScript,JQuery,java,linux等">
     <meta name="description" content="3D Gaussian Splatting for Real-Time Radiance Field Rendering
 
 英文
@@ -20,7 +20,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>zws</title>
+    <title>3dgs | zws</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
     <style>
@@ -64,9 +64,9 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 7.1.1">
+<meta name="generator" content="Hexo 7.1.1"><link rel="alternate" href="/atom.xml" title="zws" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="zws" type="application/atom+xml">
 </head>
 
 
@@ -286,12 +286,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/%5Cimg%5C2.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title"></h1>
+                    <h1 class="description center-align post-title">3dgs</h1>
                 </div>
             </div>
         </div>
@@ -313,12 +313,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/3dgs/">
+                                <span class="chip bg-color">3dgs</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA/" class="post-category">
+                                三维重建
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -327,14 +340,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2024-03-25
+                    2024-03-30
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2024-03-29
+                    2024-03-30
                 </div>
                 
 
@@ -376,7 +389,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="3D-Gaussian-Splatting-for-Real-Time-Radiance-Field-Rendering"><a href="#3D-Gaussian-Splatting-for-Real-Time-Radiance-Field-Rendering" class="headerlink" title="3D Gaussian Splatting for Real-Time Radiance Field Rendering"></a>3D Gaussian Splatting for Real-Time Radiance Field Rendering</h1><p><img src="/2024/03/25/3dgs/fig1.png" alt="Fig 1"></p>
+                <h1 id="3D-Gaussian-Splatting-for-Real-Time-Radiance-Field-Rendering"><a href="#3D-Gaussian-Splatting-for-Real-Time-Radiance-Field-Rendering" class="headerlink" title="3D Gaussian Splatting for Real-Time Radiance Field Rendering"></a>3D Gaussian Splatting for Real-Time Radiance Field Rendering</h1><p><img src="/2024/03/30/3dgs/fig1.png" alt="Fig 1"></p>
 <details>
 <summary>英文</summary>
  Fig. 1. Our method achieves real-time rendering of radiance fields with quality that equals the previous method with the best quality [Barron et al. 2022],while only requiring optimization times competitive with the fastest previous methods [Fridovich-Keil and Yu et al. 2022; Müller et al. 2022]. Key to this performance is a novel 3D Gaussian scene representation coupled with a real-time differentiable renderer, which offers significant speedup to both scene optimization and novel view synthesis. Note that for comparable training times to InstantNGP [Müller et al. 2022], we achieve similar quality to theirs; while
@@ -819,8 +832,8 @@ quality novel view synthesis, starting from a sparse set of (SfM)
 <p> where 𝐽 is the Jacobian of the affine approximation of the projective<br> transformation. Zwicker et al. [2001a] also show that if we skip the<br> third row and column of Σ′, we obtain a 2×2 variance matrix with<br> the same structure and properties as if we would start from planar<br> points with normals, as in previous work [Kopanas et al. 2021].<br> 其中，𝐽是投影变换的仿射近似的雅可比矩阵。Zwicker等人[2001a]还表明，如果我们跳过Σ′的第三行和第三列，我们将获得一个2×2的方差矩阵，其结构和性质与我们从具有法线的平面点开始的情况相同，就像之前的工作[Kopanas等人，2021年]一样<br> An obvious approach would be to directly optimize the covariance<br> matrix Σ to obtain 3D Gaussians that represent the radiance field.<br> However, covariance matrices have physical meaning only when<br> they are positive semi-definite. For our optimization of all our pa<br>rameters, we use gradient descent that cannot be easily constrained<br> to produce such valid matrices, and update steps and gradients can<br> very easily create invalid covariance matrices.<br> 一个明显的方法是直接优化协方差矩阵Σ，以获得表示辐射场的三维高斯函数。然而，协方差矩阵只有在它们是半正定的时候才具有物理意义。对于我们所有参数的优化，我们使用梯度下降，很难约束其产生这样有效的矩阵，而且更新步骤和梯度很容易产生无效的协方差矩阵。<br> As a result, we opted for a more intuitive, yet equivalently ex<br>pressive representation for optimization. The covariance matrix Σ<br> of a 3D Gaussian is analogous to describing the configuration of an<br> ellipsoid. Given a scaling matrix 𝑆 and rotation matrix 𝑅, we can<br> f<br> ind the corresponding Σ:<br> 因此，我们选择了一种更直观但同样表达能力的优化表示。三维高斯函数的协方差矩阵Σ类似于描述椭球体的配置。给定一个缩放矩阵𝑆和旋转矩阵𝑅，我们可以找到相应的Σ：<br> $ \Sigma = R S S^T R^T \quad(6) $<br> To allow independent optimization of both factors, we store them<br> separately: a 3D vector 𝑠 for scaling and a quaternion 𝑞 to represent<br> rotation. These canbetrivially converted to their respective matrices<br> and combined, making sure to normalize 𝑞 to obtain a valid unit<br> quaternion.<br> 为了允许独立优化这两个因素，我们将它们分开存储：一个用于缩放的三维向量𝑠和一个用于表示旋转的四元数𝑞。这些可以轻松地转换为各自的矩阵并组合，确保归一化𝑞以获得有效的单位四元数。<br> To avoid significant overhead due to automatic differentiation<br> during training, we derive the gradients for all parameters explicitly.<br> Details of the exact derivative computations are in appendix A.<br> 为了避免由于训练过程中的自动微分而产生的显著开销，我们明确地计算了所有参数的梯度。关于精确导数计算的详细信息请参见附录A。<br> This representation of anisotropic covariance– suitable for op<br>timization– allows us to optimize 3D Gaussians to adapt to the<br> geometry of different shapes in captured scenes, resulting in a fairly<br> compact representation. Fig. 3 illustrates such cases.<br> 这种适用于优化的各向异性协方差表示使我们能够优化三维高斯函数以适应捕获场景中不同形状的几何结构，从而得到相对紧凑的表示。图3说明了这样的情况。</p>
 </details>
 
-<h4 id="5-OPTIMIZATION-WITH-ADAPTIVE-DENSITY-CONTROL-OF-3D-GAUSSIANS"><a href="#5-OPTIMIZATION-WITH-ADAPTIVE-DENSITY-CONTROL-OF-3D-GAUSSIANS" class="headerlink" title="5 OPTIMIZATION WITH ADAPTIVE DENSITY CONTROL OF 3D GAUSSIANS"></a>5 OPTIMIZATION WITH ADAPTIVE DENSITY CONTROL OF 3D GAUSSIANS</h4><p><img src="/2024/03/25/3dgs/fig2.png" alt="Fig 2"><br>图2. 优化从稀疏的SfM点云开始，创建了一组3D高斯函数。然后，我们对这组高斯函数的密度进行优化和自适应控制。在优化过程中，我们使用了快速的基于瓦片的渲染器，使其在训练时间上具有与SOTA快速辐射场方法相竞争的优势。一旦训练完成，我们的渲染器允许对各种场景进行实时导航.<br>Projection：投射；Adaptive Density Control：自适应密度控制；可微分瓦片光栅化器（Differentiable Tile Rasterizer）；操作流程（Operation Flow）；梯度流（Gradient Flow）</p>
-<p><img src="/2024/03/25/3dgs/fig3.png" alt="Fig 3"><br>图3。我们在优化后将3D高斯函数缩小60%（最右侧）。这清楚地展示了经过优化后紧凑地表示复杂几何形状的3D高斯函数的各向异性形状。左侧是实际渲染的图像。</p>
+<h4 id="5-OPTIMIZATION-WITH-ADAPTIVE-DENSITY-CONTROL-OF-3D-GAUSSIANS"><a href="#5-OPTIMIZATION-WITH-ADAPTIVE-DENSITY-CONTROL-OF-3D-GAUSSIANS" class="headerlink" title="5 OPTIMIZATION WITH ADAPTIVE DENSITY CONTROL OF 3D GAUSSIANS"></a>5 OPTIMIZATION WITH ADAPTIVE DENSITY CONTROL OF 3D GAUSSIANS</h4><p><img src="/2024/03/30/3dgs/fig2.png" alt="Fig 2"><br>图2. 优化从稀疏的SfM点云开始，创建了一组3D高斯函数。然后，我们对这组高斯函数的密度进行优化和自适应控制。在优化过程中，我们使用了快速的基于瓦片的渲染器，使其在训练时间上具有与SOTA快速辐射场方法相竞争的优势。一旦训练完成，我们的渲染器允许对各种场景进行实时导航.<br>Projection：投射；Adaptive Density Control：自适应密度控制；可微分瓦片光栅化器（Differentiable Tile Rasterizer）；操作流程（Operation Flow）；梯度流（Gradient Flow）</p>
+<p><img src="/2024/03/30/3dgs/fig3.png" alt="Fig 3"><br>图3。我们在优化后将3D高斯函数缩小60%（最右侧）。这清楚地展示了经过优化后紧凑地表示复杂几何形状的3D高斯函数的各向异性形状。左侧是实际渲染的图像。</p>
 <details>
 <summary>英文</summary>
 The core of our approach is the optimization step, which creates
@@ -891,7 +904,7 @@ The optimization is based on successive iterations of rendering and
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://zhenwusi.github.io/2024/03/25/3dgs/">https://zhenwusi.github.io/2024/03/25/3dgs/</a>
+                    <a href="https://zhenwusi.github.io/2024/03/30/3dgs/">https://zhenwusi.github.io/2024/03/30/3dgs/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -928,7 +941,11 @@ The optimization is based on successive iterations of rendering and
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/3dgs/">
+                                    <span class="chip bg-color">3dgs</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -1010,13 +1027,12 @@ The optimization is based on successive iterations of rendering and
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/2024/03/25/3dgs/">
+                <a href="/2024/03/30/3dgs/">
                     <div class="card-image">
                         
+                        <img src="/%5Cimg%5C2.png" class="responsive-img" alt="3dgs">
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
-                        
-                        <span class="card-title"></span>
+                        <span class="card-title">3dgs</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1027,17 +1043,29 @@ The optimization is based on successive iterations of rendering and
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-25
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-30
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            小九九
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA/" class="post-category">
+                                    三维重建
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/3dgs/">
+                        <span class="chip bg-color">3dgs</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
