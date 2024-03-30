@@ -6,7 +6,7 @@
   <link href="https://zhenwusi.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhenwusi.github.io/"/>
-  <updated>2024-03-30T00:49:45.290Z</updated>
+  <updated>2024-03-30T00:52:14.696Z</updated>
   <id>https://zhenwusi.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://zhenwusi.github.io/2024/03/30/3dgs/"/>
     <id>https://zhenwusi.github.io/2024/03/30/3dgs/</id>
     <published>2024-03-30T00:22:53.000Z</published>
-    <updated>2024-03-30T00:49:45.290Z</updated>
+    <updated>2024-03-30T00:52:14.696Z</updated>
     
     
       
@@ -37,7 +37,7 @@
     <category term="三维重建" scheme="https://zhenwusi.github.io/categories/%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA/"/>
     
     
-    <category term="3dgs" scheme="https://zhenwusi.github.io/tags/3dgs/"/>
+    <category term="3d gaussian splating" scheme="https://zhenwusi.github.io/tags/3d-gaussian-splating/"/>
     
   </entry>
   
